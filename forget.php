@@ -6,8 +6,7 @@
       include_once ('common/user.php');
       include_once ('common/db_helper.php');
       include('smtp/PHPMailerAutoload.php');
-       // if(isset($_SESSION['admin']))
-  // {
+   
       $dbcon = new Database();
       $db = $dbcon->getConnection();
       $objUser = new user($db); 
